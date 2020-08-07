@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+  display: flex;
+  background: #5D6627;
+}
+
+.wrapper {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 90%;
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  background: rgba(0,0,0,.3);
+}
+
+.form > * {
+  flex: 1;
+  border-right: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+
+.form > *:last-child {
+  border-right: 0;
+}
+
+.destiny {
+  flex: 2.5;
+  padding: 0 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+.form label {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+}
+
+input[type="date"] {
+  padding: 0 5px;
+}
+
+.guest-select {
+  padding: 0 5px;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.submit-button {
+  background: #88C0FF;
+  border-radius: 0 5px 5px 0;
+}
